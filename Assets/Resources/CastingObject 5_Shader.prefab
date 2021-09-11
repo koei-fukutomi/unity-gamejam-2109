@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e996ecc36d24974a836d213fad2201b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sourceTex: {fileID: 2800000, guid: ac93f6826b3d81b44b6685d6ed8ff0c5, type: 3}
+  sourceTex: {fileID: 2800000, guid: 88494fc6268982247b8286c1ddbc7943, type: 3}
   castingParameter: {fileID: 11400000, guid: 57659be9a4a4d564cb9010ae98cc8e12, type: 2}
   castingAlphaParameterInputEndEvent: {fileID: 11400000, guid: 23ff32cd42a2ef6468d1e6ef085a950f, type: 2}
 --- !u!114 &2586978399659369161
