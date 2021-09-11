@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SG_MoldShaderUnLit
-  m_Shader: {fileID: -6465566751694194690, guid: 1215990a5346ced469372ae9a4418e88, type: 3}
+  m_Name: SG_MoldShaderUnLit_gaming
+  m_Shader: {fileID: -6465566751694194690, guid: 23d94e31f14fb9342b4b27746e143715, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
