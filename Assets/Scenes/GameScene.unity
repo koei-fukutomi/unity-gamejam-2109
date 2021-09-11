@@ -630,6 +630,90 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1001 &897983778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359518, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469513292359519, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469514043545916, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469514440487242, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469514987480932, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608469514987480934, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+--- !u!114 &897983779 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1608469513292359517, guid: d9f096fb2a738ae44a4cb02c966d3047, type: 3}
+  m_PrefabInstance: {fileID: 897983778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31724fdfd98a024c939497d192d817a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1112955028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1282,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 897983779}
+          m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+          m_MethodName: StartPour
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 3
     callback:
       m_PersistentCalls:
@@ -1205,6 +1301,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1867384291}
           m_TargetAssemblyTypeName: TapEventSend, Assembly-CSharp
           m_MethodName: TapUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 897983779}
+          m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+          m_MethodName: StopPour
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
