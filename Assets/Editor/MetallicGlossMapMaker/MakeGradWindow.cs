@@ -69,6 +69,8 @@ public static class MakeGrad
             {
                 //テクスチャのピクセルごとの処理
                 colorCache.r = 1f - red;
+                colorCache.g = 1f - red;
+                colorCache.b = 1f - red;
 
                 texture.SetPixel(x, y, colorCache);
             }
