@@ -65,12 +65,21 @@ public static class MakeGrad
                 red += base2D.GetPixel(x, y).a;
             }
             red /= baseTex.width;
+            red = 1f - red;
+            if(red != 1f)
+            {
+                red = Mathf.Lerp(red, 0.5f, 0.9f);
+            }
+            if(y == 0 || y == baseTex.height - 1)
+            {
+                red = 1f;
+            }
             for (int x = 0; x < baseTex.width; x++)
             {
                 //テクスチャのピクセルごとの処理
-                colorCache.r = 1f - red;
-                colorCache.g = 1f - red;
-                colorCache.b = 1f - red;
+                colorCache.r = red;
+                colorCache.g = red;
+                colorCache.b = red;
 
                 texture.SetPixel(x, y, colorCache);
             }
